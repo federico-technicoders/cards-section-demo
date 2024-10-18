@@ -63,19 +63,27 @@ export const CardsSection = () => {
             {/* Mitad derecha con múltiples secciones */}
             <aside 
                 ref={rightSectionsRef} 
-                className="w-1/2  h-screen bg-white -z-10"
+                className="w-1/2   bg-white -z-10"
             >
-                <div className="right-section bg-green-500 h-screen flex justify-center items-center">
-                    <h3 className="text-white text-2xl">Sección 1</h3>
+                <div className="right-section  h-screen flex justify-center items-center">
+                    <div className="w-[300px] h-[300px] bg-green-500 flex justify-center items-center">
+                        <h3 className="text-white text-2xl">Sección 1</h3>
+                    </div>
                 </div>
-                <div className="right-section bg-red-500 h-screen flex justify-center items-center">
-                    <h3 className="text-white text-2xl">Sección 2</h3>
+                <div className="right-section  h-screen flex justify-center items-center">
+                    <div className="w-[300px] h-[300px] bg-red-500 flex justify-center items-center">
+                        <h3 className="text-white text-2xl">Sección 2</h3>
+                    </div>
                 </div>
-                <div className="right-section bg-yellow-500 h-screen flex justify-center items-center">
-                    <h3 className="text-white text-2xl">Sección 3</h3>
+                <div className="right-section  h-screen flex justify-center items-center">
+                    <div className="w-[300px] h-[300px] bg-yellow-500 flex justify-center items-center">
+                        <h3 className="text-white text-2xl">Sección 3</h3>
+                    </div>
                 </div>
-                <div className="right-section bg-purple-500 h-screen flex justify-center items-center">
-                    <h3 className="text-white text-2xl">Sección 4</h3>
+                <div className="right-section  h-screen flex justify-center items-center">
+                    <div className="w-[300px] h-[300px] bg-purple-500 flex justify-center items-center">
+                        <h3 className="text-white text-2xl">Sección 4</h3>
+                    </div>
                 </div>
             </aside>
         </section>
