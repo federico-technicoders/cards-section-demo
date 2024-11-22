@@ -27,14 +27,13 @@ export const MySection = () => {
         });
 
         timeline.addLabel('card1');
-        // agregado para la primer tarjeta
+
         timeline.from(card1Ref.current, {
             yPercent: 75,
             opacity: 0,
         })
-
         timeline.to(card1Ref.current, {
-            yPercent: 0,
+            xPercent: 0,
             opacity: 1,
         });
 
